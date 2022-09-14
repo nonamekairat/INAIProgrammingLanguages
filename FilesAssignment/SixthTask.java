@@ -15,7 +15,7 @@ public class SixthTask {
         таких слов
          **/
 
-        String path = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\students.txt";
+        String path = "Files\\students.txt";
         delete(path);
 
     }
