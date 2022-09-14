@@ -14,7 +14,7 @@ public class FifthTask {
         шкалой более «4»
          */
 
-        String path = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\students.txt";
+        String path = "Files\\students.txt";
 
         change(path);
 
