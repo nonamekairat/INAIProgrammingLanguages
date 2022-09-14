@@ -17,8 +17,8 @@ public class ThirdTask {
         этой матрицы по столбцам. Осуществить расшифровку полученного текста.
          **/
 
-        String path = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\firstFile.txt";
-        String pathTwo = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\SecondFile.txt";
+        String path = "Files\\firstFile.txt";
+        String pathTwo = "Files\\SecondFile.txt";
 
         //шифровка с одного файла в другой
         getText(path,pathTwo);
