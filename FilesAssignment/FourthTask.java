@@ -15,8 +15,8 @@ public class FourthTask {
         ограничить до n символов
          */
 
-        String path = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\firstFile.txt";
-        String pathTwo = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\SecondFile.txt";
+        String path = "Files\\firstFile.txt";
+        String pathTwo = "Files\\SecondFile.txt";
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
