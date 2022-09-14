@@ -17,7 +17,7 @@ public class FirstTask {
         Определить количество установленных телефонов с N-го года
          */
 
-        String path = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\firstTask.txt";
+        String path = "Files/firstTask.txt";
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите имя для получения номеров на ваше имя:");
         String username = sc.nextLine();
