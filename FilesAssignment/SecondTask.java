@@ -16,7 +16,7 @@ public class SecondTask {
          */
 
 
-        String path = "Files/test.txt";
+        String path = "Files\\test.txt";
 
         ArrayList<int[]> coordinates = getCoordinates(path);
         double max = 0;
