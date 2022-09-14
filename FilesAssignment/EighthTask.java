@@ -13,7 +13,7 @@ public class EighthTask {
         равномерного добавления пробелов.
          */
 
-        String path = "Files/eighth.txt";
+        String path = "Files\\eighth.txt";
         right(path);
     }
     private static void right(String path) throws IOException {
