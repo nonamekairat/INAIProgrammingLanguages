@@ -14,8 +14,8 @@ public class SeventhTask {
         переносом».
          **/
 
-        String pathg = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\g.txt";
-        String pathf = "C:\\Users\\user\\IdeaProjects\\SecondJearINAI\\src\\com\\java\\se\\firstFile.txt";
+        String pathg = "Files\\g.txt";
+        String pathf = "Files\\firstFile.txt";
 
         getFile(pathg,pathf,"Ipsum");
 
