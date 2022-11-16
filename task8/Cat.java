@@ -34,6 +34,23 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Cat cat)) return false;
+
+        if (getAge() != cat.getAge()) return false;
+        if (getName() != null ? !getName().equals(cat.getName()) : cat.getName() != null) return false;
+        return getColor() != null ? getColor().equals(cat.getColor()) : cat.getColor() == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getName() != null ? getName().hashCode() : 0;
+        result = 31 * result + (getColor() != null ? getColor().hashCode() : 0);
+        result = 31 * result + getAge();
+        return result;
+    }
 
     @Override
     public String toString() {
