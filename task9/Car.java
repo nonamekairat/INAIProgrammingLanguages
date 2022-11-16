@@ -35,8 +35,26 @@ public class Car implements Comparable<Car>{
         this.yearRelease = yearRelease;
     }
     public int compareTo(Car p){
-
         return brandName.compareTo(p.getBrandName());
+    }
+    
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Car car)) return false;
+
+        if (getYearRelease() != car.getYearRelease()) return false;
+        if (getBrandName() != null ? !getBrandName().equals(car.getBrandName()) : car.getBrandName() != null)
+            return false;
+        return getModelCar() != null ? getModelCar().equals(car.getModelCar()) : car.getModelCar() == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getBrandName() != null ? getBrandName().hashCode() : 0;
+        result = 31 * result + (getModelCar() != null ? getModelCar().hashCode() : 0);
+        result = 31 * result + getYearRelease();
+        return result;
     }
 
     @Override
